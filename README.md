@@ -147,3 +147,35 @@ Contributions are welcome! Here's how you can help:
 ## 📄 License
 
 This project is open source and available under the MIT License.
+
+## 🔧 Troubleshooting
+
+### Common Issues
+
+#### Port Already in Use
+If you see "Port 3000 is already in use", try:
+```bash
+# Find the process using port 3000
+netstat -ano | findstr :3000
+# Kill the process or use a different port
+set PORT=3001 && npm start
+```
+
+#### MongoDB Connection Error
+Ensure MongoDB is running:
+```bash
+# Start MongoDB service
+net start MongoDB
+```
+
+#### File Upload Fails
+- Check if the uploads directory exists
+- Verify file size limits in configuration
+- Ensure sufficient disk space
+
+### Getting Help
+
+If you encounter any issues:
+1. Check existing [issues](https://github.com/rishabh8870/DRIVE/issues)
+2. Create a new issue with detailed information
+3. Include error messages and system information
