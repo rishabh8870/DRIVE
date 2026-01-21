@@ -179,3 +179,7 @@ If you encounter any issues:
 1. Check existing [issues](https://github.com/rishabh8870/DRIVE/issues)
 2. Create a new issue with detailed information
 3. Include error messages and system information
+4. 
+## Last Updated
+
+Updated on Jan 21, 2026 - Documentation improvements
